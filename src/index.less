@@ -1,0 +1,54 @@
+@import "normalize.less";
+
+
+.select-none() {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.select() {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  -o-user-select: auto;
+  user-select: auto;
+  cursor: auto;
+}
+
+.selectable {
+  .select();
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+
+  outline: 0;
+  &:hover, &:active, &:focus{
+    outline: 0;
+  }
+
+  .select-none();
+}
+
+input, textarea{
+  .select();
+  cursor: auto;
+}
+
+a, input[type=submit]{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img{
+  vertical-align: middle;
+  max-width: 100%;
+}

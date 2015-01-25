@@ -1,0 +1,21 @@
+{
+  "name": "native.less",
+  "version": "0.0.1",
+  "description": "make browsers behave like a native apps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/native.less.git"
+  },
+  "style": "src/index.less",
+  "keywords": [
+    "native",
+    "native.less",
+    "native.css"
+  ],
+  "author": "Nathan Faucett",
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "normalize.less": "nathanfaucett/normalize.less"
+  }
+}

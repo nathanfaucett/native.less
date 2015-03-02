@@ -38,24 +38,72 @@
   .select-none();
 }
 
-input, textarea{
-  .select();
-  cursor: auto;
-}
-
-a, input[type=submit]{
-  text-decoration: none;
-  cursor: pointer;
-  *{
-	cursor: pointer;
+a{
+	display: inline-block;
+	*{
+		cursor: pointer;
   }
 }
 
-a{
-	display: inline-block;
+a, input[type=submit]{
+	outline: 0;
+  text-decoration: none;
+  cursor: pointer;
+	&:hover, &:active, &:focus{
+    outline: 0;
+  }
 }
 
 img{
   vertical-align: middle;
   max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	line-height: 1;
+	margin: 0;
+	padding: 0.75em 0;
+}
+
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.75em;
+}
+h3{
+	font-size: 1.5em;
+}
+h4{
+	font-size: 1.25em;
+}
+h5{
+	font-size: 1.125em;
+}
+h6{
+	font-size: 1em;
+}
+
+p, span, a, button, ul, ol, li, input{
+	font-size: 1em;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+input, textarea{
+  .select();
+  cursor: auto;
+	width: 100%;
+	display: block;
+	border: none;
+	background: none;
+	font-size: 1em;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
 }

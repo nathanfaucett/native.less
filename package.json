@@ -20,5 +20,8 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "normalize.less": "nathanfaucett/normalize.less"
+  },
+  "devDependencies": {
+    "comn_css": "git://github.com/nathanfaucett/comn_css.git"
   }
 }

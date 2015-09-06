@@ -16,7 +16,7 @@
     "native.css"
   ],
   "author": "Nathan Faucett",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
     "normalize.less": "nathanfaucett/normalize.less"

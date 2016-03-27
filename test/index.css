@@ -357,12 +357,12 @@ th {
   padding: 0;
 }
 .selectable {
-  -webkit-user-select: auto;
-  -moz-user-select: auto;
-  -ms-user-select: auto;
-  -o-user-select: auto;
-  user-select: auto;
-  cursor: auto;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+  cursor: text;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -431,12 +431,12 @@ li {
 }
 input,
 textarea {
-  -webkit-user-select: auto;
-  -moz-user-select: auto;
-  -ms-user-select: auto;
-  -o-user-select: auto;
-  user-select: auto;
-  cursor: auto;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+  cursor: text;
   width: 100%;
   display: block;
   border: none;

@@ -1,6 +1,6 @@
 {
-  "name": "native.less",
-  "version": "0.0.1",
+  "name": "@nathanfaucett/native.less",
+  "version": "0.0.2",
   "description": "make browsers behave like a native apps",
   "repository": {
     "type": "git",
@@ -19,9 +19,9 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "normalize.less": "nathanfaucett/normalize.less"
+    "@nathanfaucett/normalize.less": "^0.0.1"
   },
   "devDependencies": {
-    "comn_css": "git://github.com/nathanfaucett/comn_css.git"
+    "@nathanfaucett/comn_css": "^0.0.1"
   }
 }

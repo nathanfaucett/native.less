@@ -364,6 +364,14 @@ th {
   user-select: auto;
   cursor: auto;
 }
+.non-selectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: default;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -371,12 +379,6 @@ th {
   -o-box-sizing: border-box;
   box-sizing: border-box;
   outline: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-  cursor: default;
 }
 *:hover,
 *:active,

@@ -1,13 +1,13 @@
 {
   "name": "@nathanfaucett/native.less",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "make browsers behave like a native apps",
   "repository": {
     "type": "git",
     "url": "https://github.com/nathanfaucett/native.less.git"
   },
   "scripts": {
-    "test": "comn_css -f test/index.less -o test/index.css -l"
+    "test": "comn_css -f ./test/index.less -o ./test/index.css -l"
   },
   "style": "src/index.less",
   "keywords": [
@@ -22,6 +22,6 @@
     "@nathanfaucett/normalize.less": "^0.0.1"
   },
   "devDependencies": {
-    "@nathanfaucett/comn_css": "^0.0.1"
+    "@nathanfaucett/comn_css": "^0.0.2"
   }
 }
